@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blizzard.IO.Serialization", "Blizzard.IO.Serialization\Blizzard.IO.Serialization.csproj", "{1C964963-A2A4-4246-AC18-8FCAA440AA44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blizzard.IO.Serialization", "Blizzard.IO.Serialization\Blizzard.IO.Serialization.csproj", "{1C964963-A2A4-4246-AC18-8FCAA440AA44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubModules", "SubModules", "{92AC035C-DC8F-4B2A-9529-B620E3A5A6BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blizzard.IO.Core", "Blizzard.IO.Core\Blizzard.IO.Core\Blizzard.IO.Core.csproj", "{D4066AED-C6AB-4DD2-BEB3-61C0D6D89ABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{1C964963-A2A4-4246-AC18-8FCAA440AA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C964963-A2A4-4246-AC18-8FCAA440AA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C964963-A2A4-4246-AC18-8FCAA440AA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4066AED-C6AB-4DD2-BEB3-61C0D6D89ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4066AED-C6AB-4DD2-BEB3-61C0D6D89ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4066AED-C6AB-4DD2-BEB3-61C0D6D89ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4066AED-C6AB-4DD2-BEB3-61C0D6D89ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4066AED-C6AB-4DD2-BEB3-61C0D6D89ABE} = {92AC035C-DC8F-4B2A-9529-B620E3A5A6BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E9048BB-42BA-4A5F-AF3D-E5927AD209C8}
